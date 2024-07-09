@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    text-align: center;
+}
+
+.weather-container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#city-input, #fetch-weather {
+    margin: 10px 0;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#city-input {
+    width: 80%;
+    text-align: center;
+}
+
+#fetch-weather {
+    background-color: #0072ff;
+    color: white;
+    cursor: pointer;
+    width: 84%;
+}
